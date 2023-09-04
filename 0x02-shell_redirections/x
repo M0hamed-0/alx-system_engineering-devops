@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "input file name"
+read var1
+echo "#!/bin/bash" > "${var1}"
+vi ${var1}
